@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a.nav-link {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 15px;
+}
+
+nav.navbar.navbar-expand-lg {
+    margin: 16px 0px 0px;
+    padding: 20px 0px;
+}
+
+.button{
+	/* padding: 6px 20px; */
+    background: #081158;
+    /* border: 2px solid #081158; */
+    color: #FBB244;
+    border-radius: 30px;
+    text-decoration: none;
+	cursor: pointer;
+}
+.button:hover{
+	color: white;
+}
+
+h1{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	margin:0px 0px 16px;
+	color: #081158;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+p{
+	font-size: 14px;
+	color: #00000080;
+	margin-bottom: 16px;
+	font-family: 'Open sans', sans-serif;
+}
+.feature, .services, .about, .testimonial, .footer {
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+/*Hero Sectio*/
+.hero-section{
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+
+.hero-section p{
+	color: #00000080;
+	font-size:14px;
+	font-family: 'Open sans', sans-serif;
+	width: 80%;
+	margin-bottom: 48px;
+}
+
+.btn.btn-primary{
+	font-size: 16px;
+	font-family: 'Open sans', sans-serif;
+	color: #ffffff;
+	padding:12px 30px;
+	margin-right: 8px;
+	border-radius: 30px;
+	background-color:#081158 ;
+}
+
+
+/* Fetaure Section Css  */
+.feature-cild{
+	margin-top: 50px;
+}
+.icon img{
+	width: 40px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.feature-cild h3{
+	font-size: 18px;
+	font-family:'Montserrat', sans-serif ;
+	font-weight: 800;
+}
+.feature-cild p{
+	font-size: 14px;
+	font-family: 'Open sans', sans-serif;
+	color: #00000080;
+	padding-bottom: 16px;
+}
+
+/*About Section*/
+.col-lg-6.info {
+    padding-left: 150px;
+}
+.about h1{
+	margin-bottom: 24px;
+}
+
+ul.list-items{
+/*	list-style: none;*/
+	padding-bottom: 30px;
+	font-size: 14px;
+	font-family: 'Open sans', sans-serif;
+	color: #00000080;
+}
+
+
+/*Service section */
+.services h1{
+	margin-bottom: 72px;
+}
+.service{
+	margin-bottom: 30px;
+	border: 1px solid #d1e0e0;
+}
+.service.d-flex{
+	padding:30px;
+}
+
+.service.icon img{
+	
+}
+.text h3{
+	font-size:16px;
+	font-family: 'Montserrat', sans-serif;
+	color:#000000;
+	margin: 0px 0px 8px;
+	font-weight:700;
+}
+.service p{
+	font-size: 14px;
+	font-family:'Open Sans', sans-serif;
+	color: #00000080;
+}
+.icon {
+    padding-right: 50px;
+}
+
+/*Testimonial Section*/
+.testimonial{
+	padding-right: 100px ;
+	padding-left: 100px;
+}
+.testimonial-head{
+	margin-bottom: 48px;
+}
+.card-body{
+	padding:40px;
+}
+
+.card-body p{
+	padding-bottom: 16px;
+	font-size: 18px;
+	color: #00000080;
+}
+.card-body img{
+	height: 50px;
+	border-radius: 50%;
+}
+
+.card-body h3{
+	font-size: 18px;
+	font-family:'Montserrat', sans-serif ;
+	color: #000000;
+	letter-spacing: 1px;
+}
+
+.card-body h5{
+	font-size: 14px;
+	font-family:'Open sans', sans-serif ;
+	color: #00000080;
+}
+
+/*Testimonial Section*/
+
+/* Footer Section  */
+.footer h3{
+	font-size: 16px;
+	font-family: 'Open sans', sans-serif ;
+	color: #000000;
+	margin: 0px 0px 20px ;
+}
+
+i.fa-solid.fa-envelope {
+    padding-right: 10px;
+}
+
+i.fa-solid.fa-phone {
+    padding-right: 10px;
+}
+
+i.fa-sharp.fa-solid.fa-location-dot {
+    padding-right: 10px;
+}
+/* Footer Section  */
